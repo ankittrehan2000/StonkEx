@@ -140,7 +140,7 @@ class Search extends React.Component {
                                             <Card.Text style={{color: 'red'}}>Percentage Change is {sData[data].quote.changePercent}%</Card.Text>
                                         </div>
                                     )}
-                                    <p className="mb-2 text-muted" style={{fontSize: '12px'}}>Note: Values are not in realtime due to API restrictions.</p>
+                                    <Card.Text>Data from: <a href="https://iexcloud.io" target="_blank">IEX Cloud</a></Card.Text>
                                     <form onSubmit={this.buyStock}>
                                         <input id={sData[data].quote.symbol} type='number' name="number" />
                                         <button type='submit'>Buy</button>

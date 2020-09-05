@@ -98,6 +98,7 @@ class Sell extends React.Component {
                     <Card.Text style={{color: 'red'}}>Percentage Change is {testData[data].quote.changePercent}%</Card.Text>
                   </div>
               )}
+              <Card.Text>Data from: <a href="https://iexcloud.io" target="_blank">IEX Cloud</a></Card.Text>
               <form id={"submit"+{data}} onSubmit={this.sellStock}>
                 <input id={testData[data].quote.symbol} type='number' name="number" />
                 <button type='submit'>Sell</button>

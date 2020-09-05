@@ -1,7 +1,6 @@
 import React, { useCallback } from "react";
 import app from "../Utilities/firebase";
 import AboutNavBar from "../Utilities/aboutNavbar";
-//import Loader from 'react-loader-spinner';
 
 class About extends React.Component {
 
@@ -17,6 +16,7 @@ class About extends React.Component {
                        of money and invest it in stocks of their preference for a particular length of time. You can manage your own stock portfolio 
                        and check on fellow StonkEx users in the leaderboard section. 
                     </p>
+                    <a href="https://iexcloud.io" target="_blank">Data provided by IEX Cloud</a>
                     <h4 style={{padding: "10px"}}>How to Win the Game?</h4>
                     <h5> If you happen to be the user that reports the highest profit or lowest loss, you win that season! </h5>
                     <h3 style={{padding: "5px"}}>Team Members:</h3>
